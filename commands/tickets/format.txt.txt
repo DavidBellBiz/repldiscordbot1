@@ -1,0 +1,14 @@
+const { MessageEmbed } = require('discord.js')
+module.exports = {
+  name: "",
+  category: "2021",
+  description: "2021",
+  run: async (client, message, args) => {
+
+  const embed = new MessageEmbed()
+  .setTitle('')
+  .setDescription('')
+
+  message.channel.send(embed)
+  }
+}
