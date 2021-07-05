@@ -1,6 +1,6 @@
 module.exports = client => {
   let botStatus = [
-    `Over Colonial Roleplay Players`
+    `{insert_status}`
 ]
 
     setInterval(function() {
